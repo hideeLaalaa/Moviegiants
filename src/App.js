@@ -23,7 +23,7 @@ const App = () => {
     searchMovies('Spiderman')
   }, [])
   const searchMovies = async (title) => {
-    const response = await fetch(`${API_URL}&s=${title}`)
+    const response = await fetch(`${API_URL}&s=${title}`,{ mode: 'no-cors'})
     const data = await response.json()
     console.log(data);
     setMovies(data.Search)
