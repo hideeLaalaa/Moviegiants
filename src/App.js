@@ -24,6 +24,7 @@ const App = () => {
   }, [])
   const searchMovies = async (title) => {
     const response = await fetch(`${API_URL}&s=${title}`,{ mode: 'no-cors'})
+    console.log(response);
     const data = await response.json()
     console.log(data);
     setMovies(data.Search)
