@@ -4,8 +4,8 @@ import MovieCard from './MovieCard'
 import './App.css'
 import SearchIcon from './search.svg'
 
-//const API_URL = 'https://www.omdbapi.com?apikey=9b4cef1d'
-const API_URL = 'https://www.velhect.com/station_monitor/api/request.php?sn=VELSM-001L&start=2022-09-01&end=2022-09-02&ch=5c18a705dd6e85b850675864d79529a7'
+const API_URL = 'https://www.omdbapi.com?apikey=9b4cef1d'
+//const API_URL = 'https://www.velhect.com/station_monitor/api/request.php?sn=VELSM-001L&start=2022-09-01&end=2022-09-02&ch=5c18a705dd6e85b850675864d79529a7'
 
 // const movie1 = {
 //   Title: 'Superman, Spiderman or Batman',
